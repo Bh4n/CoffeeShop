@@ -1,9 +1,7 @@
 package CoffeeShop;
 
 import CoffeeShop.abstracts.BaseCustomerManager;
-import CoffeeShop.abstracts.CustomerService;
 import CoffeeShop.adapters.MernisServiceAdapter;
-import CoffeeShop.concrete.CustomerCheckManager;
 import CoffeeShop.concrete.NeroCustomerManager;
 import CoffeeShop.concrete.StarbucsCustomerManager;
 import CoffeeShop.entities.Customer;
