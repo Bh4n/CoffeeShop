@@ -8,7 +8,7 @@ public class CustomerCheckManager  implements CustomerCheckService {
 	@Override
 	public boolean validate(Customer customer) {
 	
-		System.out.println("Kullanýcý doðrulandý");
+		System.out.println("Kullanici dogrulandi");
 		return true;
 	}
 

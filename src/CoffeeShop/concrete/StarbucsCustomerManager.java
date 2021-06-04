@@ -17,12 +17,12 @@ public class StarbucsCustomerManager extends BaseCustomerManager {
 	public void save(Customer customer) {
 
 		if (checkservice.validate(customer)) {
-			System.out.println("Mernis sistemi ile giriþ baþarýlý.");
+			System.out.println("Mernis sistemi ile giris basarili.");
 			super.save(customer);
 			
 		}else {
 			
-			System.out.println("Kiþi doðrulanamadý.");
+			System.out.println("Kisi dogrulanamadi.");
 		}
 		
 	}
