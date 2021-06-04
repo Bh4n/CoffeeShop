@@ -14,5 +14,6 @@ public class Main {
 		Customer customer = new Customer(1, "Enes Bahan", "Morova", 1999, "12312312312");
 		BaseCustomerManager manager = new StarbucsCustomerManager(new MernisServiceAdapter());
 		manager.save(customer);
+		
 	}
 }
